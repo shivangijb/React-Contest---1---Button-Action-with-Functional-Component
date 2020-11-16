@@ -3,7 +3,7 @@ import "./../styles/App.css";
 
 function App() {
   let [message , setMessage] = React.useState(false);
-  const handleClick = () => {
+  function handleClick(){
     setMessage(true);
   };
 
